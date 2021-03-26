@@ -1,16 +1,16 @@
 <?php
 function double_num($number) {
-    echo $number * 2;
+    return $number * 2;
 }
-echo double_num();
+echo double_num(15);
 ?>
 
 
 <?php
 function add($a, $b) {
-    echo $a + $b;
+    return $a + $b;
 }
-echo add();
+echo add(3,5);
 ?>
 
 
@@ -36,6 +36,7 @@ function max_array($arr) {
     }
     return $max_number;
 }
+echo max_array([1, 5, 20, 10]);
 ?>
 
 
